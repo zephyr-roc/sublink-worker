@@ -22,3 +22,9 @@ jobs:
         
       - name: Run tests
         run: npm test
+
+      - name: Test EdgeOne Blob adapter
+        run: npm run test:edgeone
+
+      - name: Build EdgeOne Makers Functions
+        run: npm run build:edgeone

@@ -46,6 +46,10 @@
 - **Docker**: `docker pull ghcr.io/7sageer/sublink-worker:latest`
 - **Docker Compose**: `docker compose up -d` (includes Redis)
 
+### EdgeOne Makers
+- **Makers Node Functions + Blob**: deploy this repository to EdgeOne Makers with \`npm run build:edgeone\` (settings are in \`edgeone.json\`).
+- See [EdgeOne Makers deployment guide](docs/edgeone-makers.md) for step-by-step instructions, persistence settings and caveats.
+
 ## ✨ Features
 
 ### Supported Protocols

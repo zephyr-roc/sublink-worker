@@ -1,0 +1,5 @@
+{
+  "buildCommand": "npm run build:edgeone",
+  "outputDirectory": "public",
+  "nodeVersion": "22.11.0"
+}
