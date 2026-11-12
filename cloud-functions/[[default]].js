@@ -1,2 +1,6 @@
-// Makers uses [[default]] for all paths below the root.
-export { onRequest } from './_shared/app.mjs';
+import { onRequest as handleRequest } from './_shared/app.mjs';
+
+// Makers uses [[default]] to match all non-root application routes.
+export function onRequest(context) {
+    return handleRequest(context);
+}
