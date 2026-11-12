@@ -18,7 +18,7 @@ export function createEdgeOneRuntime(env = {}) {
         assetFetcher: null,
         logger: console,
         config: {
-            configTtlSeconds: optionalSeconds(env.CONFIG_TTL_SECONDS),
+            configTtlSeconds: optionalSeconds(env.CONFIG_TTL_SECONDS) ?? 0,
             shortLinkTtlSeconds: optionalSeconds(env.SHORT_LINK_TTL_SECONDS)
         }
     };
