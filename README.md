@@ -4,7 +4,7 @@
   <h1><b>Sublink Worker</b></h1>
   <h5><i>One Worker, All Subscriptions</i></h5>
 
-  <p><b>A lightweight subscription converter and manager for proxy protocols, deployable on Cloudflare Workers, Vercel, Node.js, or Docker.</b></p>
+  <p><b>A lightweight subscription converter and manager for proxy protocols, deployable on Cloudflare Workers, EdgeOne Makers, Vercel, Node.js, or Docker.</b></p>
 
   <a href="https://trendshift.io/repositories/12291" target="_blank">
     <img src="https://trendshift.io/api/badge/repositories/12291" alt="7Sageer%2Fsublink-worker | Trendshift" width="250" height="55"/>
@@ -45,6 +45,10 @@
 - **Vercel**: `vercel deploy` (configure KV in project settings)
 - **Docker**: `docker pull ghcr.io/7sageer/sublink-worker:latest`
 - **Docker Compose**: `docker compose up -d` (includes Redis)
+
+### EdgeOne Makers
+- **Makers Node Functions + Blob**: deploy this repository to EdgeOne Makers with `npm run build:edgeone` (settings are in `edgeone.json`).
+- See [EdgeOne Makers deployment guide](docs/edgeone-makers.md) for step-by-step instructions, persistence settings and caveats.
 
 ## ✨ Features
 

@@ -179,6 +179,9 @@ CLAUDE.local.md
 AGENTS.local.md
 .claude/settings.local.json
 
+# Generated EdgeOne Makers handler bundle
+cloud-functions/_shared/
+
 # Local planning
 .roadmap/
 
