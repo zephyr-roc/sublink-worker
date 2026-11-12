@@ -3,7 +3,7 @@ import { createEdgeOneRuntime } from './edgeone.js';
 
 let app;
 
-export async function onRequest(context) {
+export async function handleEdgeOneRequest(context) {
     try {
         if (!app) {
             // A warm Node function can reuse the app, but never in-memory storage.
